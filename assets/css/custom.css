@@ -1,0 +1,93 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: black;   
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: #191919;
+}
+
+.bg-dark {
+    background-color: #000000 !important;
+}
+
+.navbar-nav {
+    margin-right: 0em;
+}
+
+.nav-item,
+.nav-item-r{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.nav-item-r {
+    background-color: white;
+    border-bottom: 2px solid #979595ee;
+}
+
+.navbar-dark .navbar-nav .nav-item-r .nav-link {
+    color: #ff0000;
+}
+
+.nav-item:hover{
+    margin-bottom: 0.5px;
+    border-bottom: 0.5px solid red;
+    transition: 0.5s;
+}
+
+.nav-item .current {
+    margin-bottom: 0.5px;
+    border-bottom: 0.5px solid red;
+}
+
+.logosig {
+    width: auto;
+    height: 35px;
+    margin-left: 10px;
+}
+
+/* ESAUDE */
+
+#esaude {
+    background-image: none;
+    background-color: #f1f2ed;
+    color: #1f84bf;
+    padding: 0;
+    width: auto;
+    min-height: 100vh;
+    height: auto;
+}
+.esaude-title p{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px;
+}
+
+.esaude-text p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.esaude-text p:first-child {
+    margin-top: 30px;
+}
+
+.esaude-text p:last-child {
+    margin-top: 15px;
+}
+
+#roll-button {
+    position: relative;
+    top: 4px;
+    width: 20%;
+}
+
+/* VANTAGENS */
+
+#vantagens {
+    background: #93a0ad;
+}
