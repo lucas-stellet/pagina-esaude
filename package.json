@@ -1,0 +1,20 @@
+{
+  "name": "esaude-stellet",
+  "version": "1.0.0",
+  "description": "Portal e-Saude SIG Certificadora",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitinho.sig.digital:lucas.pedreiro/esaude-stellet.git"
+  },
+  "author": "Lucas Pedreiro",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
