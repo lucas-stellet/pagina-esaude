@@ -53,7 +53,7 @@ body {
 #esaude {
     background-image: none;
     background-color: #f1f2ed;
-    color: #1f84bf;
+    color: black;
     padding: 0;
     width: auto;
     min-height: 100vh;
@@ -67,18 +67,14 @@ body {
     padding: 10px;
 }
 
-.esaude-text p {
+.esaude-text{
     font-size: 20px;
     font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    
 }
 
-.esaude-text p:first-child {
-    margin-top: 30px;
-}
-
-.esaude-text p:last-child {
-    margin-top: 15px;
-}
 
 #roll-button {
     position: relative;
@@ -90,4 +86,99 @@ body {
 
 #vantagens {
     background: #93a0ad;
+    color: black;
+    padding: 0;
+    width: auto;
+    min-height: 100vh;
+    height: auto;
 }
+
+
+.vantagens-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px;
+}
+
+.vantagens-text {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ONDE UTILIZAR */
+
+#ondeutilizar {
+    background: black;
+    color: white;
+    padding: 0;
+    width: auto;
+    min-height: 100vh;
+    height: auto;
+}
+
+.ondeutilizar-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px;
+}
+
+.ondeutilizar-card {
+    margin: 10px 0px;
+}
+
+.ondeutilizar-img {
+    width: auto;
+    height: 100px;
+    margin: 10px 0px;
+}
+
+.ondeutilizar-card p {
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 0px;
+}
+
+.ondeutilizar-card-title {
+    color: red;
+    padding: 10px 0px 2px;
+}
+
+.ondeutilizar-card-text {
+    color: rgb(0, 255, 242);
+    text-align: center;
+    padding: 2px 0px 15px;
+}
+
+.ondeutilizar-newsletter {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.newsletter-form {
+    border-radius: 25px;
+}
+
+.sign-button {
+    margin-top: 5px;
+}
+
+.btn-sign {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10%;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+
