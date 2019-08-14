@@ -168,9 +168,6 @@ body {
     box-shadow:0 0 8px #666;
 }
 
-.sign-button {
-    margin-top: 5px;
-}
 
 .btn-sign {
     background-color: #ff0000;
@@ -211,7 +208,7 @@ body {
 }
 
 .comprar-card-row {
-    height: 550px;
+    height: 620px;
     
 }
 
@@ -277,6 +274,16 @@ body {
     font-weight: 600;
 }
 
+.btn-comprar {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 25px;
+}
 
 
 
