@@ -93,7 +93,6 @@ body {
     height: auto;
 }
 
-
 .vantagens-title {
     font-size: 32px;
     font-weight: 700;
@@ -112,8 +111,8 @@ body {
 /* ONDE UTILIZAR */
 
 #ondeutilizar {
-    background: black;
-    color: white;
+    background: white;
+    color: #5085bd;
     padding: 0;
     width: auto;
     min-height: 100vh;
@@ -140,18 +139,19 @@ body {
 
 .ondeutilizar-card p {
     font-size: 20px;
-    font-weight: 300;
     display: inline-block;
     margin: 0px;
 }
 
 .ondeutilizar-card-title {
+    font-weight: 600;
     color: red;
     padding: 10px 0px 2px;
 }
 
 .ondeutilizar-card-text {
-    color: rgb(0, 255, 242);
+    font-weight: 500;
+    color: #5085bd;
     text-align: center;
     padding: 2px 0px 15px;
 }
@@ -165,6 +165,7 @@ body {
 
 .newsletter-form {
     border-radius: 25px;
+    box-shadow:0 0 8px #666;
 }
 
 .sign-button {
