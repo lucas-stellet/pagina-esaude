@@ -28,7 +28,8 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-item-r .nav-link {
-    color: #ff0000;
+    color: #5085bd;
+    font-weight: bolder;
 }
 
 .nav-item:hover{
@@ -52,8 +53,8 @@ body {
 
 #esaude {
     background-image: none;
-    background-color: #f1f2ed;
-    color: black;
+    background-color: white;
+    color: #5085bd;
     padding: 0;
     width: auto;
     min-height: 100vh;
@@ -62,7 +63,7 @@ body {
 .esaude-title p{
     font-size: 32px;
     font-weight: 700;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
     padding: 10px;
 }
@@ -70,21 +71,21 @@ body {
 .esaude-text{
     font-size: 18px;
     font-weight: 300;
-    padding: 10px;
+    padding: 1px;
     text-align: center;
     
 }
 
 #roll-button {
     position: relative;
-    top: 4px;
+    top: 10px;
     width: 20%;
 }
 
 /* VANTAGENS */
 
 #vantagens {
-    background: #93a0ad;
+    background-color: #4ba2ff38;;
     color: black;
     padding: 0;
     width: auto;
@@ -95,9 +96,10 @@ body {
 .vantagens-title {
     font-size: 32px;
     font-weight: 700;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
     padding: 10px;
+    color: #ff0000;
 }
 
 .vantagens-text {
@@ -121,7 +123,7 @@ body {
 .ondeutilizar-title {
     font-size: 32px;
     font-weight: 700;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
     padding: 10px;
 }
@@ -183,7 +185,6 @@ body {
 /* COMPRAR */
 
 #comprar{
-        background-color: #5085bd;
         width: auto;
         height: auto;
         text-align: center;
@@ -194,14 +195,10 @@ body {
     background-color: #4ba2ff38;
 }   
 
-.comprar-margin {
-    margin-bottom: -5%;
-}
-
 .comprar-title {
     font-size: 32px;
     font-weight: 700;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
     padding: 10px;
     color: #ff0000;
@@ -214,7 +211,8 @@ body {
 }
 
 .comprar-card-row {
-    height: auto;
+    height: 550px;
+    
 }
 
 .comprar-card {
@@ -222,7 +220,9 @@ body {
     margin-top: 10%;
     width: 95%;
     height: 55%;
+    box-shadow: 7px 9px 5px -1px #8C8C8C;
 }
+
 
 .comprar-btn {
     border-radius: 50px;
