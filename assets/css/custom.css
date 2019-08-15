@@ -60,6 +60,7 @@ body {
     min-height: 100vh;
     height: auto;
 }
+
 .esaude-title p{
     font-size: 32px;
     font-weight: 700;
@@ -237,7 +238,7 @@ body {
 }
 
 .comprar-card {
-    margin: 20px 0px;
+    margin: 20px 0px 25px;
 }
 
 .comprar-card-img {
@@ -285,5 +286,21 @@ body {
     border-radius: 25px;
 }
 
+/* FOOTER */
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    background-color:black;
+    color: white;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 200;
+}
 
 
