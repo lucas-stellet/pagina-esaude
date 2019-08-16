@@ -35,7 +35,56 @@
     }
 
     /* ONDE UTILIZAR */
-}
+
+    .ondeutilizar-title {
+    font-size: 35px;
+    }
+
+    .ondeutilizar-img {
+    height: 110px;
+    }
+
+    .ondeutilizar-card p {
+    font-size: 27px;
+    display: inline-block;
+    margin: 0px;
+    }
+
+    .ondeutilizar-newsletter {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    }
+
+    .newsletter-form {
+        width: 100%;
+    }
+
+    /* COMPRAR */
+
+    .comprar-title {
+        font-size: 35px;
+    }
+
+    .comprar-card-row {
+    height: 720px;
+    }
+
+    .comprar-card-title{
+    font-size: 26px;
+    font-weight: 600;
+    color:#ff0000;
+    padding: 10px 0px 2px;
+    margin: 0px;
+    }
+
+    .comprar-card-img {
+    height: 160px;
+    }
+
+    .comprar-card-text {
+    font-size: 25px;
+    }
 
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) { ... }

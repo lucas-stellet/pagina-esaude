@@ -183,7 +183,9 @@ body {
 /* COMPRAR */
 
 #comprar{
+        padding: 0;
         width: auto;
+        min-height: 100vh;
         height: auto;
         text-align: center;
         background: white;
