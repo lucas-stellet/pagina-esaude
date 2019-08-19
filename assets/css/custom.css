@@ -300,3 +300,12 @@ body {
     text-align: center;
     font-weight: 200;
 }
+
+.secret {
+    color: #000000;
+}
+
+.secret:hover {
+    color: white;
+    transition-delay: 3s;
+}
