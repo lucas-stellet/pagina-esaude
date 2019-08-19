@@ -67,7 +67,8 @@
     }
 
     .comprar-card-row {
-    height: 720px;
+    height: 780px;
+    padding: 5px;
     }
 
     .comprar-card-title{
@@ -86,8 +87,122 @@
     font-size: 25px;
     }
 
+    .comprar-card-duration {
+    font-size: 25px;
+    }
+
+.comprar-card-price {
+    font-size: 35px;
+    }
+
+}
 /* // Medium devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991.98px) { ... }
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* --- NAVBAR ---- */
+
+.ml-5, .mx-5 {
+    margin-left: 5rem!important;
+}
+
+.mr-5, .mx-5 {
+    margin-right: 5rem!important;
+}
+
+.nav-item:hover{
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+    transition: 0.5s;
+}
+
+.nav-item.active{
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,.75);
+    transition: 0.5s;
+}
+
+.nav-item-r {
+    background-color: #ff0000;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.bg-dark {
+    background-color: #000000a1 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 20px;
+}
+
+.nav-item .current {
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+
+.logosig {
+    width: auto;
+    height: 58px;
+}
+
+/* ESAUDE */
+
+#esaude {
+    background-image: url("/assets/img/background\ esaude.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 100vh;
+    height: auto;
+}
+
+.esaude-title p{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 60px;
+    text-align: right;
+    padding-left: 200px;
+}
+
+.esaude-text{
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 250px;
+    text-align: right;   
+    
+}
+
+#roll-button {
+    position: relative;
+    top: 5px;
+    width: 20%;
+}
+
+
+
+
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) { ... }
