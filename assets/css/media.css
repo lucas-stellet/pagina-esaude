@@ -1,211 +1,267 @@
 /* // Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 576px) and (max-width: 767.98px) { 
 
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
     /* eSAUDE */
-    
-    .esaude-title p{
+    .esaude-title p {
         font-size: 35px;
         font-weight: 700;
         margin-top: 60px;
         text-align: center;
         padding: 10px;
     }
-
-    .esaude-text{
+    .esaude-text {
         font-size: 25px;
         font-weight: 300;
         padding: 1px;
         text-align: center;
     }
-
     #roll-button {
         position: relative;
         top: 1px;
         width: 25%;
     }
-
     /* VANTAGENS */
-
     .vantagens-title {
         font-size: 35px;
     }
-
     .vantagens-text {
         font-size: 25px;
     }
-
     /* ONDE UTILIZAR */
-
     .ondeutilizar-title {
-    font-size: 35px;
+        font-size: 35px;
     }
-
     .ondeutilizar-img {
-    height: 110px;
+        height: 110px;
     }
-
     .ondeutilizar-card p {
-    font-size: 27px;
-    display: inline-block;
-    margin: 0px;
+        font-size: 27px;
+        display: inline-block;
+        margin: 0px;
     }
-
     .ondeutilizar-newsletter {
-    font-size: 25px;
-    text-align: center;
-    padding: 10px;
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
     }
-
     .newsletter-form {
         width: 100%;
     }
-
     /* COMPRAR */
-
     .comprar-title {
         font-size: 35px;
     }
-
     .comprar-card-row {
-    height: 780px;
-    padding: 5px;
+        height: 780px;
+        padding: 5px;
     }
-
-    .comprar-card-title{
-    font-size: 26px;
-    font-weight: 600;
-    color:#ff0000;
-    padding: 10px 0px 2px;
-    margin: 0px;
+    .comprar-card-title {
+        font-size: 26px;
+        font-weight: 600;
+        color: #ff0000;
+        padding: 10px 0px 2px;
+        margin: 0px;
     }
-
     .comprar-card-img {
-    height: 160px;
+        height: 160px;
     }
-
     .comprar-card-text {
-    font-size: 25px;
+        font-size: 25px;
     }
-
     .comprar-card-duration {
-    font-size: 25px;
+        font-size: 25px;
     }
-
-.comprar-card-price {
-    font-size: 35px;
+    .comprar-card-price {
+        font-size: 35px;
     }
-
 }
+
 /* // Medium devices (tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-    
-p {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-
-/* --- NAVBAR ---- */
-
-.ml-5, .mx-5 {
-    margin-left: 5rem!important;
-}
-
-.mr-5, .mx-5 {
-    margin-right: 5rem!important;
-}
-
-.nav-item:hover{
-    margin-bottom: 2px;
-    border-bottom: 2px solid red;
-    transition: 0.5s;
-}
-
-.nav-item.active{
-    margin-bottom: 2px;
-    border-bottom: 2px solid red;
-}
-
-.nav-link:hover {
-    color: rgba(255,255,255,.75);
-    transition: 0.5s;
-}
-
-.nav-item-r {
-    background-color: #ff0000;
-}
-
-.nav-link {
-    font-weight: bolder;
-    font-size: 100%;
-}
-
-.bg-dark {
-    background-color: #000000a1 !important;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(255, 255, 255);
-}
-
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 20px;
-}
-
-.nav-item .current {
-    margin-bottom: 2px;
-    border-bottom: 2px solid red;
-}
-
-.logosig {
-    width: auto;
-    height: 58px;
-}
-
-/* ESAUDE */
-
-#esaude {
-    background-image: url("/assets/img/background\ esaude.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    padding-left: 10%;
-    padding-right: 10%;
-    min-height: 100vh;
-    height: auto;
-}
-
-.esaude-title p{
-    font-size: 40px;
-    font-weight: 300;
-    margin-top: 60px;
-    text-align: right;
-    padding-left: 200px;
-}
-
-.esaude-text{
-    font-size: 15px;
-    font-weight: 800;
-    padding-left: 250px;
-    text-align: right;   
-    
-}
-
-#roll-button {
-    position: relative;
-    top: 5px;
-    width: 20%;
-}
-
-
-
-
+    p {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+    /* --- NAVBAR ---- */
+    .ml-5, .mx-5 {
+        margin-left: 5rem!important;
+    }
+    .mr-5, .mx-5 {
+        margin-right: 5rem!important;
+    }
+    .nav-item:hover {
+        margin-bottom: 2px;
+        border-bottom: 2px solid red;
+        transition: 0.5s;
+    }
+    .nav-item.active {
+        margin-bottom: 2px;
+        border-bottom: 2px solid red;
+    }
+    .nav-link:hover {
+        color: rgba(255, 255, 255, .75);
+        transition: 0.5s;
+    }
+    .nav-item-r {
+        background-color: #ff0000;
+    }
+    .nav-link {
+        font-weight: bolder;
+        font-size: 100%;
+    }
+    .bg-dark {
+        background-color: #000000a1 !important;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 20px;
+    }
+    .nav-item .current {
+        margin-bottom: 2px;
+        border-bottom: 2px solid red;
+    }
+    .logosig {
+        width: auto;
+        height: 58px;
+    }
+    /* ESAUDE */
+    #esaude {
+        background-image: url("/assets/img/background\ esaude.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        padding-left: 10%;
+        padding-right: 10%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .esaude-title p {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 60px;
+        text-align: right;
+        padding-left: 200px;
+    }
+    .esaude-text {
+        font-size: 15px;
+        font-weight: 800;
+        padding-left: 250px;
+        text-align: right;
+    }
+    #roll-button {
+        position: relative;
+        top: 5px;
+        width: 20%;
+    }
+    /* VANTAGENS */
+    #vantagens {
+        background-image: url("/assets/img/background\ esaude\ 2.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        padding-left: 10%;
+        padding-right: 10%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .vantagens-title {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 60px;
+        text-align: center;
+        color: white;
+    }
+    .vantagens-text {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 10px;
+        margin-top: 15px;
+        text-align: center;
+        color: white;
+    }
+    /* ONDE UTILIZAR */
+    .ondeutilizar-title {
+        font-size: 40px;
+        font-weight: 300;
+        padding: 10px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .ondeutilizar-img {
+        width: auto;
+        height: 80px;
+        margin: 10px 0px;
+    }
+    .ondeutilizar-card {
+        padding: 20px;
+    }
+    .ondeutilizar-card p {
+        font-size: 18px;
+        display: inline-block;
+        margin: 0px;
+        text-align: center;
+    }
+    .ondeutilizar-newsletter {
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+    }
+    .newsletter-form {
+        width: 100%;
+    }
+    .btn-sign {
+        background-color: #ff0000;
+        border-color: #ff0000;
+        font-weight: 600;
+        font-size: 0.8rem;
+        margin-top: 10%;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    /* COMPRAR */
+    .comprar-title {
+        font-size: 40px;
+    }
+    .comprar-card-row {
+        height: 780px;
+        padding: 5px;
+    }
+    .comprar-card-title {
+        font-size: 26px;
+        font-weight: 600;
+        color: #ff0000;
+        padding: 10px 0px 2px;
+        margin: 0px;
+    }
+    .comprar-card-img {
+        height: 160px;
+    }
+    .comprar-card-text {
+        font-size: 25px;
+    }
+    .comprar-card-duration {
+        font-size: 25px;
+    }
+    .comprar-card-price {
+        font-size: 35px;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    ...
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) { ... }
+
+@media only screen and (min-width: 1200px) {
+    ...
+}

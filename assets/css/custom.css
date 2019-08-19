@@ -1,10 +1,10 @@
 body {
     font-family: 'Nunito', sans-serif;
-    color: black;   
+    color: black;
 }
 
 .navbar-dark .navbar-toggler {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     border-color: #191919;
 }
 
@@ -16,8 +16,7 @@ body {
     margin-right: 0em;
 }
 
-.nav-item,
-.nav-item-r{
+.nav-item, .nav-item-r {
     text-align: center;
     letter-spacing: 5px;
 }
@@ -32,7 +31,7 @@ body {
     font-weight: bolder;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     margin-bottom: 0.5px;
     border-bottom: 0.5px solid red;
     transition: 0.5s;
@@ -61,7 +60,7 @@ body {
     height: auto;
 }
 
-.esaude-title p{
+.esaude-title p {
     font-size: 32px;
     font-weight: 700;
     margin-top: 60px;
@@ -69,12 +68,11 @@ body {
     padding: 10px;
 }
 
-.esaude-text{
+.esaude-text {
     font-size: 18px;
     font-weight: 300;
     padding: 1px;
     text-align: center;
-    
 }
 
 #roll-button {
@@ -86,7 +84,8 @@ body {
 /* VANTAGENS */
 
 #vantagens {
-    background-color: #4ba2ff38;;
+    background-color: #4ba2ff38;
+    ;
     color: black;
     padding: 0;
     width: auto;
@@ -147,7 +146,7 @@ body {
 
 .ondeutilizar-card-title {
     font-weight: 600;
-    color:#ff0000;
+    color: #ff0000;
     padding: 10px 0px 2px;
 }
 
@@ -166,9 +165,8 @@ body {
 
 .newsletter-form {
     border-radius: 25px;
-    box-shadow:0 0 8px #666;
+    box-shadow: 0 0 8px #666;
 }
-
 
 .btn-sign {
     background-color: #ff0000;
@@ -182,18 +180,18 @@ body {
 
 /* COMPRAR */
 
-#comprar{
-        padding: 0;
-        width: auto;
-        min-height: 100vh;
-        height: auto;
-        text-align: center;
-        background: white;
+#comprar {
+    padding: 0;
+    width: auto;
+    min-height: 100vh;
+    height: auto;
+    text-align: center;
+    background: white;
 }
 
 .comprar {
     background-color: #4ba2ff38;
-}   
+}
 
 .comprar-title {
     font-size: 32px;
@@ -212,7 +210,6 @@ body {
 
 .comprar-card-row {
     height: 620px;
-    
 }
 
 .comprar-card {
@@ -223,12 +220,11 @@ body {
     box-shadow: 7px 9px 5px -1px #8C8C8C;
 }
 
-
 .comprar-btn {
     border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
-    font-weight: 800;  
+    font-weight: 800;
     font-size: 0.8rem;
     margin-bottom: 5%;
 }
@@ -249,10 +245,10 @@ body {
     padding-top: 5%;
 }
 
-.comprar-card-title{
+.comprar-card-title {
     font-size: 20px;
     font-weight: 600;
-    color:#ff0000;
+    color: #ff0000;
     padding: 10px 0px 2px;
     margin: 0px;
 }
@@ -292,7 +288,7 @@ body {
 
 .footer {
     font-family: 'Nunito', sans-serif;
-    background-color:black;
+    background-color: black;
     color: white;
     padding-top: 2%;
     padding-left: 10%;
@@ -304,5 +300,3 @@ body {
     text-align: center;
     font-weight: 200;
 }
-
-
