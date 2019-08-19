@@ -268,11 +268,428 @@
 /* // Large devices (desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-    ...
+    .ml-5, .mx-5 {
+        margin-left: 5rem!important;
+    }
+    .mr-5, .mx-5 {
+        margin-right: 5rem!important;
+    }
+    .nav-item:hover {
+        margin-bottom: 2px;
+        border-bottom: 2px solid red;
+        transition: 0.5s;
+    }
+    .nav-item.active {
+        margin-bottom: 2px;
+        border-bottom: 2px solid red;
+    }
+    .nav-link:hover {
+        color: rgba(255, 255, 255, .75);
+        transition: 0.5s;
+    }
+    .nav-item-r {
+        background-color: #ff0000;
+    }
+    .nav-link {
+        font-weight: bolder;
+        font-size: 14px;
+    }
+    .navbar-dark .navbar-nav .nav-item-r .nav-link {
+        color: white;
+        font-weight: bolder;
+    }
+    .bg-dark {
+        background-color: #000000a1 !important;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+    }
+    .navbar-nav {
+        margin-right: 2em;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 20px;
+    }
+    .nav-item, .nav-item-r {
+        text-align: none;
+        letter-spacing: 0px;
+    }
+    .nav-item .current {
+        margin-bottom: 2px;
+        border-bottom: 2px solid red;
+    }
+    .logosig {
+        width: auto;
+        height: 50px;
+        margin-left: 2em;
+    }
+    /* ESAUDE */
+    #esaude {
+        background-image: url("/assets/img/background\ esaude.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .esaude-title p {
+        font-size: 45px;
+        font-weight: 300;
+        margin-top: 8%;
+        text-align: right;
+        padding-left: 45%;
+    }
+    .esaude-text {
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 45%;
+        text-align: right;
+    }
+    #roll-button {
+        position: relative;
+        top: 5px;
+        width: 20%;
+    }
+    /* VANTAGENS */
+    #vantagens {
+        background-image: url("/assets/img/background\ esaude\ 2.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .vantagens-title {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 60px;
+        text-align: center;
+        color: white;
+    }
+    .vantagens-text {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 10px;
+        margin-top: 15px;
+        text-align: center;
+        color: white;
+    }
+    /* ONDE UTILIZAR */
+    #ondeutilizar {
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .ondeutilizar-title {
+        font-size: 40px;
+        font-weight: 300;
+        padding: 10px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .ondeutilizar-img {
+        width: auto;
+        height: 80px;
+        margin: 10px 0px;
+    }
+    .ondeutilizar-card {
+        padding: 20px;
+    }
+    .ondeutilizar-card p {
+        font-size: 18px;
+        display: inline-block;
+        margin: 0px;
+        text-align: center;
+    }
+    .ondeutilizar-newsletter {
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+    }
+    .newsletter-form {
+        width: 100%;
+    }
+    .btn-sign {
+        background-color: #ff0000;
+        border-color: #ff0000;
+        font-weight: 600;
+        font-size: 0.8rem;
+        margin-top: 10%;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    /* COMPRAR */
+    #comprar {
+        background-color: #4ba2ff38;
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .comprar-title {
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .comprar-card-row {
+        height: 400px;
+        padding: 5px;
+    }
+    .comprar-card-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #ff0000;
+        padding: 10px 0px 2px;
+        margin: 0px;
+    }
+    .comprar-card-img {
+        height: 140px;
+    }
+    .comprar-card-text {
+        font-size: 18px;
+    }
+    .comprar-card-duration {
+        font-size: 20px;
+    }
+    .comprar-card-price {
+        font-size: 30px;
+    }
+    .btn-comprar {
+        background-color: #ff0000;
+        border-color: #ff0000;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 0.7rem;
+        border-radius: 25px;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-    ...
+    .ml-5, .mx-5 {
+        margin-left: 5rem!important;
+    }
+    .mr-5, .mx-5 {
+        margin-right: 5rem!important;
+    }
+    .nav-item:hover {
+        margin-bottom: 2px;
+        border-bottom: 2px solid red;
+        transition: 0.5s;
+    }
+    .nav-item.active {
+        margin-bottom: 2px;
+        border-bottom: 2px solid red;
+    }
+    .navbar-dark .navbar-nav .nav-item-r .nav-link {
+        color: white;
+        font-weight: bolder;
+    }
+    .nav-link:hover {
+        color: rgba(255, 255, 255, .75);
+        transition: 0.5s;
+    }
+    .nav-item-r {
+        background-color: #ff0000;
+    }
+    .nav-link {
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    .bg-dark {
+        background-color: #000000a1 !important;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+    }
+    .navbar-nav {
+        margin-right: 2em;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 20px;
+    }
+    .nav-item, .nav-item-r {
+        text-align: none;
+        letter-spacing: 0px;
+    }
+    .nav-item .current {
+        margin-bottom: 2px;
+        border-bottom: 2px solid red;
+    }
+    .logosig {
+        width: auto;
+        height: 60px;
+        margin-left: 2em;
+    }
+    /* ESAUDE */
+    #esaude {
+        background-image: url("/assets/img/background\ esaude.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .esaude-title p {
+        font-size: 50px;
+        font-weight: 300;
+        margin-top: 8%;
+        text-align: right;
+        padding-left: 45%;
+    }
+    .esaude-text {
+        font-size: 23px;
+        font-weight: 600;
+        padding-left: 45%;
+        text-align: right;
+    }
+    #roll-button {
+        position: relative;
+        top: 5px;
+        width: 20%;
+    }
+    /* VANTAGENS */
+    #vantagens {
+        background-image: url("/assets/img/background\ esaude\ 2.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .vantagens-title {
+        font-size: 50px;
+        font-weight: 300;
+        margin-top: 60px;
+        text-align: center;
+        color: white;
+    }
+    .vantagens-text {
+        font-size: 23px;
+        font-weight: 600;
+        padding: 10px;
+        margin-top: 15px;
+        text-align: center;
+        color: white;
+    }
+    /* ONDE UTILIZAR */
+    #ondeutilizar {
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .ondeutilizar-title {
+        font-size: 50px;
+        font-weight: 300;
+        padding: 10px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .ondeutilizar-img {
+        width: auto;
+        height: 100px;
+        margin: 10px 0px;
+    }
+    .ondeutilizar-card {
+        padding: 20px;
+    }
+    .ondeutilizar-card p {
+        font-size: 23px;
+        display: inline-block;
+        margin: 0px;
+        text-align: center;
+    }
+    .ondeutilizar-newsletter {
+        font-size: 23px;
+        text-align: center;
+        padding: 10px;
+    }
+    .newsletter-form {
+        width: 100%;
+        text-align: center;
+    }
+    .btn-sign {
+        background-color: #ff0000;
+        border-color: #ff0000;
+        font-weight: 600;
+        font-size: 1.0rem;
+        margin-top: 10%;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    /* COMPRAR */
+    #comprar {
+        background-color: #eef6ff;
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+        height: auto;
+    }
+    .comprar-title {
+        font-size: 50px;
+        font-weight: 300;
+    }
+    .comprar-card-row {
+        height: 228px;
+        padding: 0;
+    }
+    .comprar-card {
+        margin-bottom: 1%;
+        margin-top: 1%;
+        width: 95%;
+        height: 55%;
+        border-radius: 10%;
+    }
+    .comprar-card-title {
+        font-size: 25px;
+        font-weight: 600;
+        color: #ff0000;
+        padding: 10px 0px 2px;
+        margin: 0px;
+    }
+    .comprar-card-img {
+        height: 160px;
+    }
+    .comprar-card-text {
+        font-size: 19px;
+        margin-top: 10px;
+        padding: 2px;
+        text-align: justify;
+    }
+    .comprar-card-duration {
+        font-size: 20px;
+    }
+    .comprar-card-price {
+        font-size: 32px;
+    }
+    .btn-comprar {
+        background-color: #ff0000;
+        border-color: #ff0000;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 0.7rem;
+        border-radius: 25px;
+    }
 }
