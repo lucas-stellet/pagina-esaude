@@ -303,6 +303,7 @@ body {
 
 .secret {
     color: #000000;
+    display: inline-block;
 }
 
 .secret:hover {
