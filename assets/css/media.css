@@ -70,7 +70,10 @@
         font-size: 25px;
     }
     .comprar-card-text a {
-        color: #8b8b00;
+        color: #E9BC00;
+    }
+    .comprar-card-text a:hover {
+        color: #AA8A1C;
     }
     .comprar-card-duration {
         font-size: 25px;
@@ -217,12 +220,24 @@
         text-align: center;
     }
     .ondeutilizar-newsletter {
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
         text-align: center;
+        padding: 10px;
+        border: 1px solid #dbdbdb;
+        border-radius: 100px;
+        width: 100%;
+        height: auto;
+    }
+    .ondeutilizar-newsletter-form {
+        border: solid 1px #dbdbdb;
+        border-radius: 25px;
         padding: 10px;
     }
     .newsletter-form {
-        width: 100%;
+        width: 700px;
+        height: 50px;
         text-align: center;
     }
     .btn-sign {
@@ -230,7 +245,10 @@
         border-color: #ff0000;
         font-weight: 600;
         font-size: 0.9rem;
-        margin-top: 10%;
+        margin-top: 5%;
+        margin-left: 5%;
+        position: relative;
+        top: 2%;
         padding: 5px 35px;
         border-radius: 25px;
     }
@@ -257,7 +275,10 @@
         font-size: 18px;
     }
     .comprar-card-text a {
-        color: #8b8b00;
+        color: #E9BC00;
+    }
+    .comprar-card-text a:hover {
+        color: #AA8A1C;
     }
     .comprar-card-duration {
         font-size: 20px;
@@ -423,20 +444,36 @@
         text-align: center;
     }
     .ondeutilizar-newsletter {
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
         text-align: center;
+        padding: 10px;
+        border: 1px solid #dbdbdb;
+        border-radius: 100px;
+        width: 100%;
+        height: auto;
+    }
+    .ondeutilizar-newsletter-form {
+        border: solid 1px #dbdbdb;
+        border-radius: 25px;
         padding: 10px;
     }
     .newsletter-form {
-        width: 100%;
+        width: 800px;
+        height: 50px;
         text-align: center;
     }
     .btn-sign {
         background-color: #ff0000;
         border-color: #ff0000;
         font-weight: 600;
-        font-size: 0.9rem;
-        margin-top: 10%;
+        font-size: 1.0rem;
+        margin-top: 0%;
+        margin-left: 5%;
+        margin-bottom: 15%;
+        position: relative;
+        top: 2%;
         padding: 5px 35px;
         border-radius: 25px;
     }
@@ -470,7 +507,10 @@
         font-size: 18px;
     }
     .comprar-card-text a {
-        color: #8b8b00;
+        color: #E9BC00;
+    }
+    .comprar-card-text a:hover {
+        color: #AA8A1C;
     }
     .comprar-card-duration {
         font-size: 20px;
@@ -636,12 +676,24 @@
         text-align: center;
     }
     .ondeutilizar-newsletter {
-        font-size: 23px;
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
         text-align: center;
+        padding: 10px;
+        border: 1px solid #dbdbdb;
+        border-radius: 100px;
+        width: 100%;
+        height: auto;
+    }
+    .ondeutilizar-newsletter-form {
+        border: solid 1px #dbdbdb;
+        border-radius: 25px;
         padding: 10px;
     }
     .newsletter-form {
-        width: 100%;
+        width: 900px;
+        height: 50px;
         text-align: center;
     }
     .btn-sign {
@@ -649,7 +701,11 @@
         border-color: #ff0000;
         font-weight: 600;
         font-size: 1.0rem;
-        margin-top: 20%;
+        margin-top: 0%;
+        margin-left: 5%;
+        margin-bottom: 15%;
+        position: relative;
+        top: 2%;
         padding: 5px 35px;
         border-radius: 25px;
     }
@@ -693,7 +749,10 @@
         text-align: justify;
     }
     .comprar-card-text a {
-        color: #8b8b00;
+        color: #E9BC00;
+    }
+    .comprar-card-text a:hover {
+        color: #AA8A1C;
     }
     .comprar-card-duration {
         font-size: 20px;
@@ -854,6 +913,9 @@
         height: 150px;
         margin: 10px 0px;
     }
+    .ondeutilizar-cards {
+        margin-bottom: 8%;
+    }
     .ondeutilizar-card {
         padding: 20px;
     }
@@ -864,29 +926,39 @@
         text-align: center;
     }
     .ondeutilizar-newsletter {
-        margin-top: 2%;
-        color: black;
-        font-size: 21px;
         text-align: center;
-        padding: 10px;
+        padding: 1px;
+        border: 1px solid #dbdbdb;
+        border-radius: 100px;
+        box-sizing: content-box;
+        width: 1200px;
+        height: auto;
     }
     .ondeutilizar-newsletter-info {
         margin-top: 2%;
     }
-    .newsletter-form {
-        margin-top: 2%;
-        width: 100%;
+    .ondeutilizar-newsletter-info p {
         text-align: center;
+        color: black;
+        font-size: 21px;
+        font-weight: 700;
+    }
+    .newsletter-form {
+        width: 900px;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 2%;
     }
     .btn-sign {
         background-color: #ff0000;
         border-color: #ff0000;
         font-weight: 600;
         font-size: 1.2rem;
-        margin-top: 10%;
-        margin-left: 50%;
+        margin-top: 0%;
+        margin-left: 5%;
+        margin-bottom: 15%;
         position: relative;
-        bottom: 5px;
+        top: 2%;
         padding: 5px 35px;
         border-radius: 25px;
     }
@@ -929,7 +1001,10 @@
         text-align: justify;
     }
     .comprar-card-text a {
-        color: #8b8b00;
+        color: #E9BC00;
+    }
+    .comprar-card-text a:hover {
+        color: #AA8A1C;
     }
     .comprar-card-duration {
         font-size: 22px;
@@ -949,6 +1024,5 @@
     }
     .footer p {
         font-size: 20px;
-        
     }
 }
