@@ -564,7 +564,7 @@
         font-size: 18px;
     }
     .bg-dark {
-        background-color: #000000a1 !important;
+        background-color: rgba(101, 101, 101, 0.9) !important;
     }
     .navbar-dark .navbar-nav .nav-link {
         color: rgb(255, 255, 255);
@@ -806,7 +806,7 @@
         font-size: 18px;
     }
     .bg-dark {
-        background-color: #000000a1 !important;
+        background-color: rgba(101, 101, 101, 0.9) !important;
     }
     .navbar-dark .navbar-nav .nav-link {
         color: rgb(255, 255, 255);
